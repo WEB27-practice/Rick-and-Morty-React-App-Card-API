@@ -8,6 +8,8 @@ import Card from "./Card";
 // "We've got CLONES, MORTY!"
 
 const CardGrid = ({ character }) => {
+  console.log('Character inside CardGrid', character);
+  
   return (
     <div className="grid">
         {character.map((character, index) => {

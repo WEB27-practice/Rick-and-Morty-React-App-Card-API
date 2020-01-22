@@ -34,13 +34,15 @@ const App = () => {
 
     fetchCharacter()
       .then(res => {
+        console.log(res.data);
         setCharacter(res.data);
       })
       .catch(err => {
         console.log("Error has occurred: ", err);
       });
-  });
+  }, []);
 
+  console.log(character);
 
   return (
     <div className="App">

@@ -25,6 +25,11 @@ const Card = props => {
     return (
         <div className="card-parent">
             <p className="card-id">ID: {props.character.id} </p>
+            <p>{props.character.name}</p>
+            <p>{props.character.status}</p>
+            <p>{props.character.species}</p>
+            <img src={props.character.image}/>
+            
             {/*We Still Need These Properties:
             - Name
             - Image
