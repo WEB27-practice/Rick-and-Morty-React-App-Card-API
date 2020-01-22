@@ -4,8 +4,8 @@ import "./App.css";
 //Importing Axios to do a GET to our API
 import axios from "axios";
 //Importing the Card and Header Components I built out for y'all
-import Header from './Components/Header/Header'
-import CardGrid from './Components/Cards/CardGrid'
+import Header from './components/Header/Header'
+import CardGrid from './components/Cards/CardGrid'
 
 
 const App = () => {
